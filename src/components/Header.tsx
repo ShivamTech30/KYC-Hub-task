@@ -11,9 +11,9 @@ const Header: React.FC = () => {
 
   // Navigation items
   const navItems = [
-    { key: '/', label: 'Dashboard', path: '/' },
-    { key: '/risk-assessment', label: 'Risk Assessment', path: '/risk-assessment' },
-    { key: '/workflow', label: 'Workflow', path: '/workflow' },
+    { key: 'KYC-Hub-task/', label: 'Dashboard', path: 'KYC-Hub-task/' },
+    { key: 'KYC-Hub-task/risk-assessment', label: 'Risk Assessment', path: 'KYC-Hub-task/risk-assessment' },
+    { key: 'KYC-Hub-task/workflow', label: 'Workflow', path: 'KYC-Hub-task/workflow' },
   ];
 
   // User dropdown menu items
@@ -37,7 +37,7 @@ const Header: React.FC = () => {
     }}>
       {/* Logo and Title */}
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', color: '#1890ff' }}>
+        <Link to="KYC-Hub-task/" style={{ display: 'flex', alignItems: 'center', color: '#1890ff' }}>
           <BarChart2 size={28} />
           <Title level={3} style={{ margin: '0 0 0 12px', color: '#1890ff' }}>
             FinRisk

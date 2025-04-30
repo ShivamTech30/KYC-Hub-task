@@ -26,9 +26,9 @@ function App() {
         <Layout style={{ minHeight: '100vh' }}>
           <Header />
           <Routes>
-            <Route path="/" element={<DashboardPage />} />
-            <Route path="/risk-assessment" element={<RiskAssessmentPage />} />
-            <Route path="/workflow" element={<WorkflowPage />} />
+            <Route path="KYC-Hub-task/" element={<DashboardPage />} />
+            <Route path="KYC-Hub-task/risk-assessment" element={<RiskAssessmentPage />} />
+            <Route path="KYC-Hub-task/workflow" element={<WorkflowPage />} />
           </Routes>
         </Layout>
       </Router>
